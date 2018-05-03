@@ -10,5 +10,5 @@ docker run -e PROVIDER='yourProvider' -e CONTENT_ID='yourHexContentId' -e KEY_ID
 
 # TODO
 
-[] Ability to set different output formats
-[] Ability to set different system ids
+- [ ] Ability to set different output formats
+- [ ] Ability to set different system ids
