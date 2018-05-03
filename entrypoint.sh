@@ -1,0 +1,1 @@
+python pssh-box.py --provider $PROVIDER --content-id $CONTENT_ID --key-id $KEY_ID --base64 --widevine-system-id
