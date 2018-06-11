@@ -10,6 +10,8 @@ ENV PATH /shaka_packager/src/out/Release:$PATH
 RUN python setup.py build
 
 WORKDIR /shaka_packager/src/packager/tools/pssh
+
+COPY pssh-box.py pssh-box.py
 COPY entrypoint.sh entrypoint.sh
 
 ENTRYPOINT ["sh", "/shaka_packager/src/packager/tools/pssh/entrypoint.sh"]

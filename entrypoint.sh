@@ -1,1 +1,1 @@
-python pssh-box.py --provider $PROVIDER --content-id $CONTENT_ID --key-id $KEY_ID --base64 --widevine-system-id
+python pssh-box.py --provider $PROVIDER --content-id $CONTENT_ID --key-id $KEY_ID --base64 --widevine-system-id --include-pssh-atom $INCLUDE_PSSH_ATOM
